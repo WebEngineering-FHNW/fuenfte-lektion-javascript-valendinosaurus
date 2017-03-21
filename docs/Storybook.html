@@ -7,6 +7,58 @@
 <body>
 <header>
     <dfn title="Drehbuch">Storybook</dfn> for the Web Engineering Module
+
+    <style>
+
+        body{
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        header, footer{
+            position: fixed;
+            width: 100%;
+            background: #f8f8f8;
+            margin: 0px;
+            padding: 15px;
+        }
+        header{
+            top: 0;
+            left: 0;
+        }
+        footer{
+            bottom: 0;
+            left: 0;
+        }
+        section{
+            max-width: 1170px;
+            margin: auto;
+            padding: 50px;
+        }
+
+        caption{
+            font-size: 15px;
+            margin-bottom: 05px;
+        }
+        thead tr th{
+            text-align: left;
+        }
+        thead tr th,
+        tbody tr td{
+            min-width: 85px;
+        }
+        .tr-holiday{
+            color: cornflowerblue;
+        }
+        .tr-exercise{
+            color: olivedrab;
+        }
+        h1{
+            text-transform: uppercase;
+        }
+
+
+    </style>
 </header>
 <main>
     <section id="context">
@@ -41,22 +93,38 @@
                 <thead>       <tr><th> Date   </th><th>  # </th><th>Topic</th></tr></thead>
                 <tbody>
                               <tr><td>20.02.17</td><td>  1 </td><td>HTML
-                    </td></tr><tr><td>27.02.17</td><td>  2 </td><td>CSS
-                    </td></tr><tr><td>06.03.17</td><td>  3 </td><td>Grails, Web, MVC, Test
-                    </td></tr><tr><td>13.03.17</td><td>  4 </td><td>ServerPages, Template, Taglib, Layout
-                    </td></tr><tr><td>20.03.17</td><td>  5 </td><td>Javascript
-                    </td></tr><tr><td>27.03.17</td><td>  6 </td><td>Training day
-                    </td></tr><tr><td>03.04.17</td><td>  7 </td><td>REST, Services, DB-Access
-                    </td></tr><tr><td>10.04.17</td><td>  8 </td><td>SPA mit React
-                    </td></tr><tr><td>17.04.17</td><td>    </td><td>Holiday: Ostermontag
-                    </td></tr><tr><td>24.04.17</td><td>  9 </td><td>Exercise preparation, Retrospective (?)
-                    </td></tr><tr><td>01.05.17</td><td>    </td><td>Holiday: 1.Mai
-                    </td></tr><tr><td>08.05.17</td><td>    </td><td>Project week
-                    </td></tr><tr><td>15.05.17</td><td> 10 </td><td>Exercise day
-                    </td></tr><tr><td>22.05.17</td><td> 11 </td><td>Responsive / Mobile Web
-                    </td></tr><tr><td>29.05.17</td><td> 12 </td><td>The functional web (Elm), Exercise deadline
-                    </td></tr><tr><td>05.06.17</td><td>    </td><td>Holiday: Pfingstmontag
-                    </td></tr><tr><td>12.06.17</td><td> 13 </td><td>Exam preparation
+                    </td></tr>
+                              <tr><td>27.02.17</td><td>  2 </td><td>CSS
+                    </td></tr>
+                              <tr><td>06.03.17</td><td>  3 </td><td>Grails, Web, MVC, Test
+                    </td></tr>
+                              <tr><td>13.03.17</td><td>  4 </td><td>ServerPages, Template, Taglib, Layout
+                    </td></tr>
+                              <tr><td>20.03.17</td><td>  5 </td><td>Javascript
+                    </td></tr>
+                              <tr><td>27.03.17</td><td>  6 </td><td>Training day
+                    </td></tr>
+                              <tr><td>03.04.17</td><td>  7 </td><td>REST, Services, DB-Access
+                    </td></tr>
+                              <tr><td>10.04.17</td><td>  8 </td><td>SPA mit React
+                    </td></tr>
+                              <tr class="tr-holiday"><td>17.04.17</td><td>    </td><td>Holiday: Ostermontag
+                    </td></tr>
+                              <tr class="tr-exercise"><td>24.04.17</td><td>  9 </td><td>Exercise preparation, Retrospective (?)
+                    </td></tr>
+                              <tr class="tr-holiday"><td>01.05.17</td><td>    </td><td>Holiday: 1.Mai
+                    </td></tr>
+                              <tr><td>08.05.17</td><td>    </td><td>Project week
+                    </td></tr>
+                              <tr class="tr-exercise"><td>15.05.17</td><td> 10 </td><td>Exercise day
+                    </td></tr>
+                              <tr><td>22.05.17</td><td> 11 </td><td>Responsive / Mobile Web
+                    </td></tr>
+                              <tr><td>29.05.17</td><td> 12 </td><td>The functional web (Elm), Exercise deadline
+                    </td></tr>
+                              <tr class="tr-holiday"><td>05.06.17</td><td>    </td><td>Holiday: Pfingstmontag
+                    </td></tr>
+                              <tr><td>12.06.17</td><td> 13 </td><td>Exam preparation
                     </td></tr>
 
                 </tbody>
